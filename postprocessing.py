@@ -37,15 +37,15 @@ def preprocess_data(_X_test, _seq_len, _nb_ch):
     _X_test = utils.split_multi_channels(_X_test, _nb_ch)
     return _X_test
 
-evaluation_setup_folder = r'C:\Users\yexun\Desktop\sed\evaluation_setup'
-feat_train_folder = r'C:\Users\yexun\Desktop\sed\feat_train'
-feat_test_folder = r'C:\Users\yexun\Desktop\sed\feat_test'
+evaluation_setup_folder = r'C:\Users\yn\Desktop\sed\evaluation_setup'
+feat_train_folder = r'C:\Users\yn\Desktop\sed\feat_train'
+feat_test_folder = r'C:\Users\yn\Desktop\sed\feat_test'
 train_file = os.path.join(evaluation_setup_folder, 'training.csv')
 evaluate_file = os.path.join(evaluation_setup_folder, 'test.csv')
 train_dict = load_desc_file(train_file)
 test_dict = load_desc_file(evaluate_file)
-model_r = keras.models.load_model(r'C:\Users\yexun\Desktop\sed\models\mon_2023_01_22_00_14_49_model.h5')
-test_audio_path = r'C:\Users\yexun\Desktop\sed\test_audio'
+model_r = keras.models.load_model(r'C:\Users\yn\Desktop\sed\models\mon_2023_01_22_00_14_49_model.h5')
+test_audio_path = r'C:\Users\yn\Desktop\sed\test_audio'
 test_dict = []
 
 # -----------------------------------------------------------------------
@@ -146,6 +146,6 @@ for key in test_dict:
 df_final['"water"'] = df_final['"water"'].astype(int)
 
 ##########################
-df_final.to_csv(r'C:\Users\yexun\Desktop\sed\test_result.csv',index=False, quoting=csv.QUOTE_NONE)
+df_final.to_csv(r'C:\Users\yn\Desktop\sed\test_result.csv',index=False, quoting=csv.QUOTE_NONE)
 
 
