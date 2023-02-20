@@ -10,7 +10,7 @@ Sharath Adavanne, Pasi Pertila and Tuomas Virtanen, "Sound event detection using
 
 ## Content:
 This repository consists of five Python scripts.
-1. The feature.py script, extracts the features, labels, and normalizes the training and test split features. Make sure you update the location of the wav files, evaluation setup and folder to write features in before running it.
+1. The feature.py script, extracts the features, labels, and normalizes the training and test split features.
 2. The sed.py script, loads the normalized features, and traines the SEDnet. The training stops when the error rate metric in one second segment (http://tut-arg.github.io/sed_eval/) stops improving.
 3. The metrics.py script, implements the core metrics from sound event detection evaluation module http://tut-arg.github.io/sed_eval/
 4. The utils.py script has some utility functions.
