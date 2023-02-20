@@ -99,7 +99,7 @@ __class_labels = {
 }
 
 # location of data.
-evaluation_setup_folder = r'C:\Users\yexun\Desktop\sed\'
+evaluation_setup_folder = r'C:\Users\yexun\Desktop\sed\evaluation_setup'
 audio_folder = r'C:\Users\yexun\Desktop\sed\training_audio'
 
 # Output
