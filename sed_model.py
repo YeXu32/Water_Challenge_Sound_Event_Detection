@@ -2,8 +2,17 @@
 """
 Created on Sun Jan 15 18:29:53 2023
 
-@author: xu.y.15
+@author: yexun
 """
+
+#####################
+# Code blocks taken from repository: https://github.com/YashNita/sound-event-detection-winning-method
+#
+# Implementation of the Metrics in the following paper:
+# Sharath Adavanne, Pasi Pertila and Tuomas Virtanen, "Sound event detection using spatial features and convolutional recurrent neural network" 
+# IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2017)
+# 
+#####################
 
 from __future__ import print_function
 import os
