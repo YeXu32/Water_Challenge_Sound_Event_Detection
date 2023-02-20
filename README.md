@@ -4,8 +4,8 @@ Hackathon Challenge to detect water faucet on and off time in given audios
 ## Challenge: 
 TBC
 
-## Repository built on: 
-Repository from https://github.com/YashNita/sound-event-detection-winning-method \
+## Reference: 
+Repository built from https://github.com/YashNita/sound-event-detection-winning-method \
 Sharath Adavanne, Pasi Pertila and Tuomas Virtanen, "Sound event detection using spatial features and convolutional recurrent neural network" in IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2017) 
 
 ## Content:
