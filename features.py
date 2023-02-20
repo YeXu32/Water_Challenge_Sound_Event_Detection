@@ -2,7 +2,7 @@
 """
 Created on Sun Jan 15 18:42:08 2023
 
-@author: xu.y.15
+@author: yexun
 """
 
 
@@ -99,11 +99,11 @@ __class_labels = {
 }
 
 # location of data.
-evaluation_setup_folder = r'C:\Users\yexun\Desktop\sed\evaluation_setup'
-audio_folder = r'C:\Users\yexun\Desktop\sed\training_audio'
+evaluation_setup_folder = r'C:\Users\yn\Desktop\sed\evaluation_setup'
+audio_folder = r'C:\Users\yn\Desktop\sed\training_audio'
 
 # Output
-feat_folder = r'C:\Users\yexun\Desktop\sed\feat_train'
+feat_folder = r'C:\Users\yn\Desktop\sed\feat_train'
 utils.create_folder(feat_folder)
 
 # User set parameters
