@@ -23,7 +23,6 @@ This repository consists of five Python scripts.
 4. The utils.py script has some utility functions.
 5. The postprocessing.py script converts the predicted value into timestamps 
 
-## Model Structure: \
-![alt text]([http://url/to/img.png](https://github.com/sharathadavanne/sed-crnn/blob/master/images/CRNN_SED_DCASE2017_task3.jpg))
+
 
 
