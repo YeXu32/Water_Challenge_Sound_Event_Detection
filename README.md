@@ -1,9 +1,10 @@
 # Water_Challenge_Sound_Event_Detection
 Hackathon Challenge to detect water faucet on and off time in given audios 
 
-Repository based on: 
-Sharath Adavanne, Pasi Pertila and Tuomas Virtanen, "Sound event detection using spatial features and convolutional recurrent neural network" in IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2017)
-https://github.com/YashNita/sound-event-detection-winning-method
+Repository based on: \
+https://github.com/YashNita/sound-event-detection-winning-method \
+Sharath Adavanne, Pasi Pertila and Tuomas Virtanen, "Sound event detection using spatial features and convolutional recurrent neural network" in IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2017) 
+
 
 ## Content:
 This repository consists of five Python scripts.
@@ -14,7 +15,7 @@ This repository consists of five Python scripts.
 5. The postprocessing.py script converts the predicted value into timestamps 
 
 ## Prerequisites
-The Python script is written and tested in 3.8.8 version. 
+The Python script is written and tested in 3.8.8 version. \
 You can install the requirements by running the following line:
 ```
 pip install -r requirements.txt
