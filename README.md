@@ -23,6 +23,3 @@ This repository consists of five Python scripts.
 4. The utils.py script has some utility functions.
 5. The postprocessing.py script converts the predicted value into timestamps 
 
-
-## Model Structure: 
-<img src="https://github.com/YeXu32/Water_Challenge_Sound_Event_Detection/blob/main/CRNN_SED.jpg" alt="Alt text" title="Optional title">
