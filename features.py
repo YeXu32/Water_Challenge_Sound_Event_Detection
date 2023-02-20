@@ -6,7 +6,7 @@ Created on Sun Jan 15 18:42:08 2023
 """
 
 #####################
-# Code blocks taken from repository: https://github.com/YashNita/sound-event-detection-winning-method
+# Code blocks taken and adapted from repository: https://github.com/YashNita/sound-event-detection-winning-method
 #
 # Implementation of the Metrics in the following paper:
 # Sharath Adavanne, Pasi Pertila and Tuomas Virtanen, "Sound event detection using spatial features and convolutional recurrent neural network" 
